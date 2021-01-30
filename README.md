@@ -1,5 +1,5 @@
 # Introduce
-It's a jquery tool for html table easy to combine the hierarchy, likes a pivot table. 
+It's a jQuery tool for html table easy to combine the hierarchy, likes a pivot table. 
 
 # Guide
 
@@ -31,4 +31,5 @@ $('table').rowspanner({
 ![image](https://github.com/spiraleyeld/DynamicRowspanTable/blob/main/pic/ChangeRowspanSort.png)
 
 ### Notice
-* Same rowspan column value should be aggregated together if under the same father node.
+* Any data should be order by those rowspan columns first from the database.
+* Same rowspan column value should be put together if under the same father node.
