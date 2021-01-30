@@ -28,4 +28,4 @@ $('table').rowspanner({
 ![image](https://github.com/spiraleyeld/DynamicRowspanTable/blob/main/pic/ChangeRowspanSort.png)
 
 ### Notice
-* same Rowspan column value should be aggregated together if under the same father node.
+* Same Rowspan column value should be aggregated together if under the same father node.
