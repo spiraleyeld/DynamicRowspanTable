@@ -1,7 +1,7 @@
-### Guide
+# Guide
 
 
-
+### Assign Rowspan Columns
 ```javascript
 
 $('table').rowspanner({
