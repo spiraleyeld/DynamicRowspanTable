@@ -1,5 +1,5 @@
 # Introduce
-It's a jquery tool for table easy to combine the hierarchy table, liked a pivot table. 
+It's a jquery tool for html table easy to combine the hierarchy, likes a pivot table. 
 
 # Guide
 
