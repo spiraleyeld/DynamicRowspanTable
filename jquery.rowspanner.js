@@ -1,5 +1,6 @@
 /*
  * jQuery Rowspanner Plugin v0.1
+ * Copyright 2021 Keng-Wei, Lin
  * Ps.rows should be aggregated if haved same father nodes.  * 
  *  
  */
@@ -125,7 +126,10 @@
 								chkFatherArrCopy.push(rowSpanArr[m-1][l])
 							}	
 							//console.log(rowSpanArr[m][l],rowSpanArr[m-1][l]);
-							if(JSON.stringify(chkFatherArr)===JSON.stringify(chkFatherArrCopy) && rowSpanArr[m][l] === rowSpanArr[m-1][l] && arr[m][l] === arr[m-1][l] && rowSpanArr[m][k] != 1) 
+							if(JSON.stringify(chkFatherArr)===JSON.stringify(chkFatherArrCopy) 
+								&& rowSpanArr[m][l] === rowSpanArr[m-1][l] 
+							    && arr[m][l] === arr[m-1][l] 
+								&& rowSpanArr[m][k] != 1) 
 							{									
 								rowSpanArrForHtml[m][k]=-1;
 							}
