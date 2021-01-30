@@ -1,3 +1,6 @@
+# Introduce
+It's a jquery tool for table easy to combine the hierarchy table, liked a pivot table. 
+
 # Guide
 
 
