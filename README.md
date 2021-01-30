@@ -14,6 +14,7 @@ $('table').rowspanner({
 ### Before Table
 
 ### Result Table
+![image](https://github.com/spiraleyeld/DynamicRowspanTable/blob/main/pic/AfterGrouping.png)
 
 ### Change Rowspan Column Sort
 
