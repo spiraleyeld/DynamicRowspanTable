@@ -8,7 +8,7 @@
 <body>
 	<br><br>
 	<div style="padding-left:50px;">
-		<table class="table" style="width:400px;border:3px #cccccc solid;" cellpadding="10" border='1'>
+		<table id="myTable" class="table" style="width:400px;border:3px #cccccc solid;" cellpadding="10" border='1'>
 			<thead>
 				<tr>
 					<th>Column A</th>
@@ -68,8 +68,8 @@
 </body>
 <script>
 
-$('table').rowspanner({
-  columns: [0,2,1]
+$('#myTable').rowspanner({
+  columns: [1,2,0]
 });
 
 
