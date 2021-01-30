@@ -12,6 +12,7 @@ $('table').rowspanner({
 
 
 ### Before Table
+![image](https://github.com/spiraleyeld/DynamicRowspanTable/blob/main/pic/BeforeGrouping.png)
 
 ### Result Table
 ![image](https://github.com/spiraleyeld/DynamicRowspanTable/blob/main/pic/AfterGrouping.png)
