@@ -38,7 +38,7 @@
 		  var t = 0
           let f = function(el)
 		  {
-            $table.find('tr').each(function (r, tr) 
+            $table.find('tbody tr').each(function (r, tr) 
 			{				
 				var rowArr = [];
 				var rowSpanRowArr = [];
@@ -147,7 +147,7 @@
 			}
 			
 			var countRow = 0
-			$table.find('tr').each(function (r, tr) 
+			$table.find('tbody tr').each(function (r, tr) 
 			{		
 				$(this).find(el).each(function (d, el) {					
 					if (_this.settings.columns.length === 0 || _this.settings.columns.indexOf(d) !== -1) 
