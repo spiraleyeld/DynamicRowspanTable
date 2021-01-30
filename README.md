@@ -18,5 +18,12 @@ $('table').rowspanner({
 ![image](https://github.com/spiraleyeld/DynamicRowspanTable/blob/main/pic/AfterGrouping.png)
 
 ### Change Rowspan Column Sort
+```javascript
 
+$('table').rowspanner({
+  columns: [0,2,1]
+});
+
+```
+![image](https://github.com/spiraleyeld/DynamicRowspanTable/blob/main/pic/ChangeRowspanSort.png)
 ### Notice
