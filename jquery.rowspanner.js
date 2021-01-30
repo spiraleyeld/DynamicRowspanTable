@@ -1,7 +1,9 @@
 /*
+ * 
  * jQuery Rowspanner Plugin v0.1
  * Copyright 2021 Keng-Wei, Lin
- * Ps.rows should be aggregated if haved same father nodes.  * 
+ * Any data should be order by those rowspan columns first from the database.
+ * Same rowspan column value should be put together if under the same father node. 
  *  
  */
 
