@@ -7,7 +7,7 @@ It's a jQuery tool for html table easy to combine the hierarchy, likes a pivot t
 ### Assign Rowspan Columns
 ```javascript
 
-$('table').rowspanner({
+$('#myTable').rowspanner({
   columns: [0,1,2]
 });
 
@@ -23,7 +23,7 @@ $('table').rowspanner({
 ### Change Rowspan Column Sort
 ```javascript
 
-$('table').rowspanner({
+$('#myTable').rowspanner({
   columns: [0,2,1]
 });
 
