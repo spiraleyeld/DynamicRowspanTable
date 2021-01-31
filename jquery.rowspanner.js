@@ -107,7 +107,7 @@
 						// Part 2: first column, second row start
 						else if ( m > 0 && k === 0 )
 						{
-							if(rowSpanArr[m][k] == rowSpanArr[m-1][k])
+							if(rowSpanArr[m][k] == rowSpanArr[m-1][k] && arr[m][k] === arr[m - 1][k])
 							{
 								rowSpanArrForHtml[m][k] = -1;
 							}
